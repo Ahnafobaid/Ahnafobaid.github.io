@@ -7,6 +7,34 @@
 </div>
 
 <style>
+	<style>
+  /* Force a strict universal reset to eliminate any white space slips */
+  * {
+      box-sizing: border-box;
+  }
+  
+  body, html {
+      margin: 0 !important;
+      padding: 0 !important;
+      background-color: #801e38 !important;
+  }
+
+  .wp-site-blocks, main, #page, .wp-block-group, .entry-content {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+      top: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important; /* Forces the compressed column block to open wide */
+  }
+
+  /* Stretch the hero container elements horizontally */
+  .wp-block-columns, .wp-block-column {
+      width: 100% !important;
+      max-width: 1200px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+</style>
   /* Force a strict universal reset to eliminate any white space slips */
   * {
       box-sizing: border-box;
